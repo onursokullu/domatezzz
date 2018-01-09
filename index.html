@@ -1,0 +1,64 @@
+<html>
+<head>
+<script type="text/javascript" src="myScript.js"></script>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+<style>
+@font-face {
+    font-family: myFirstFont;
+    src: url(font2/heroFont.ttf);
+}
+.panel {
+    background:#6d6d6d;
+    border: solid 1px #6d6d6d;;
+   box-shadow: -3px 10px 12px lightgrey;
+	
+}
+body{
+margin: 0;
+}
+#domatezzzLogo{
+margin-top:1%;
+    margin-left: 10%;
+    height: 7%;
+}
+p{    margin-top: -3%;
+font-size:35;
+color:#ddffcc;
+    margin-left: 14%; font-family: myFirstFont;
+}
+</style>
+</head>
+
+<body>
+<div class="panel"> 
+<img  id="domatezzzLogo"src ="domatezzz.png"/>
+<p>Domatezzz</p>
+</div>
+
+<div id="logo">
+
+</div>
+ <div id="pomodoro-app">
+  <div id="container">
+    <div id="timer">
+      <div id="time">
+        <span id="minutes">25</span>
+        <span id="colon">:</span>
+        <span id="seconds">00</span>
+      </div>
+      <div id="filler"></div>
+    </div>
+
+    <div id="buttons">
+      <button id="work">Work</button>
+      <button id="shortBreak">Short Break</button>
+      <button id="longBreak">Long Break</button>
+      <button id="stop">Stop</button>
+    </div>
+  </div>
+</div>
+
+<audio id="audio" src="drumbit.wav" ></audio>
+
+</body>
+</html>
